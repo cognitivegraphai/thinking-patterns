@@ -1,12 +1,92 @@
 # Thinking Patterns
 
-This repository is a collection of [MCP](https://modelcontextprotocol.io/) **Thinking Patterns**.
+This repository is a collection of [MCP](https://modelcontextprotocol.io/) **Thinking Patterns** - specialized tools that enhance AI reasoning capabilities through structured cognitive frameworks.
 
-- **[Bayesian Networks](bayesian)** - Probabilistic reasoning with conditional dependencies, belief updates, and evidence propagation 
-- **[Bipartite Graphs](bipartite)** - Pro-con analysis and decision support using two disjoint node sets and weighted factors 
-- **[Cycle Detection](cycle)** - Detects cycles and feedback loops in reasoning, useful for identifying circular logic or system feedback 
-- **[DAGs (Directed Acyclic Graphs)](dag)** - Causal reasoning with multi-cause/multi-effect relationships, supporting forward and backward traversal 
-- **[Semantic Networks](semantic)** - Associative reasoning with concept nodes and relationship edges, supporting spreading activation and semantic queries 
-- **[Sequential Thinking](sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences
-- **[Small-World Networks](smallworld)** - Heuristic shortcuts and analogy-based reasoning, modeling clusters and long-range connections 
-- **[Tree Structures](tree)** - Deductive and inductive hierarchies, supporting top-down and bottom-up reasoning 
+## Available Patterns
+
+- **[Decomposition](decomposition)** - A powerful tool for breaking down complex problems into manageable components with clear relationships, dependencies, and metrics for evaluating decomposition quality
+- **[Sequential Thinking](sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences that can adapt and evolve, supporting revision of previous thoughts and exploration of alternative approaches
+- **[Validation Thinking](validationthinking)** - A rigorous validation tool for systematically reviewing, double-checking, and identifying inconsistencies in any content, solution, or reasoning process using multiple validation techniques
+
+## Installation and Usage
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+You can install any of the thinking patterns using npm:
+
+```bash
+git clone https://github.com/cognitivegraphai/thinking-patterns.git
+cd thinking-patterns/sequentialthinking
+npm install
+```
+
+### Running a Thinking Pattern
+
+Each thinking pattern can be run as an MCP server:
+
+```bash
+servers: {
+    sequentialThinking: {
+        command: "node",
+        args: ["thinking-patterns/sequentialthinking/dist/index.js"],
+    },
+    decomposition: {
+        command: "node",
+        args: ["thinking-patterns/decomposition/dist/index.js"],
+    },
+    validationthinking: {
+        command: "node",
+        args: ["thinking-patterns/validationthinking/dist/index.js"],
+    },
+}
+```
+
+### Using with AI Assistants
+
+These thinking patterns are designed to be used with AI assistants that support the Model Context Protocol (MCP). When connected, they provide specialized reasoning capabilities to the AI.
+
+Example of connecting to an AI assistant:
+
+1. Start the MCP server for your chosen thinking pattern
+2. Connect your AI assistant to the MCP server
+3. The AI can now use the specialized reasoning capabilities provided by the thinking pattern
+
+## Pattern Details
+
+### Decomposition
+
+The Decomposition pattern helps break down complex problems into manageable components. Key features:
+
+- Create and manage problem definitions
+- Decompose problems into components with clear relationships
+- Track dependencies between components
+- Measure complexity and balance of decomposition
+- Support for phased decomposition approaches
+- Metrics for evaluating decomposition quality
+
+### Sequential Thinking
+
+The Sequential Thinking pattern enables dynamic and reflective problem-solving. Key features:
+
+- Adjust total thoughts up or down as you progress
+- Question or revise previous thoughts
+- Add more thoughts even after reaching what seemed like the end
+- Express uncertainty and explore alternative approaches
+- Branch or backtrack in your thinking process
+- Generate and verify solution hypotheses
+
+### Validation Thinking
+
+The Validation Thinking pattern provides rigorous validation for any content or reasoning. Key features:
+
+- Multiple validation techniques (cross-referencing, logic testing, etc.)
+- Tracks identified issues systematically
+- Maintains validation trail for accountability
+- Adjustable validation depth
+- Confidence assessment for each validation
+- Improvement suggestions when issues are found

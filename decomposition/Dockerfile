@@ -1,6 +1,6 @@
 FROM node:22.12-alpine AS builder
 
-COPY src/cycle /app
+COPY src/decomposition /app
 COPY tsconfig.json /tsconfig.json
 
 WORKDIR /app
@@ -21,4 +21,4 @@ WORKDIR /app
 
 RUN npm ci --ignore-scripts --omit-dev
 
-ENTRYPOINT ["node", "dist/index.js"] 
+ENTRYPOINT ["node", "dist/index.js"]

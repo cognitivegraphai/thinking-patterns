@@ -1,14 +1,14 @@
 {
-  "name": "@modelcontextprotocol/server-bipartite",
+  "name": "@modelcontextprotocol/server-validation-thinking",
   "version": "0.1.0",
-  "description": "MCP server for bipartite graph (pro-con analysis) reasoning",
+  "description": "MCP server for validation thinking and quality assurance",
   "license": "MIT",
-  "author": "CognitiveGraph.ai (https://cognitivegraph.ai)",
-  "homepage": "https://thinkingpatterns.ai",
-  "bugs": "https://github.com/cognitivegraphai/thinking-patterns/issues",
+  "author": "Anthropic, PBC (https://anthropic.com)",
+  "homepage": "https://modelcontextprotocol.io",
+  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
   "type": "module",
   "bin": {
-    "mcp-server-bipartite": "dist/index.js"
+    "mcp-server-validation-thinking": "dist/index.js"
   },
   "files": [
     "dist"
@@ -29,4 +29,4 @@
     "shx": "^0.3.4",
     "typescript": "^5.3.3"
   }
-} 
+}
