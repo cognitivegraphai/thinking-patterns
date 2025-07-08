@@ -17,11 +17,20 @@ This repository is a collection of [MCP](https://modelcontextprotocol.io/) **Thi
 
 ### Installation
 
-You can install any of the thinking patterns using npm:
+You can install all thinking patterns at once using npm workspaces:
 
 ```bash
 git clone https://github.com/cognitivegraphai/thinking-patterns.git
-cd thinking-patterns/sequentialthinking
+cd thinking-patterns
+npm install
+```
+
+This will install all dependencies for all thinking patterns in the repository.
+
+If you prefer to install just a specific thinking pattern:
+
+```bash
+cd thinking-patterns/sequentialthinking  # or decomposition, or validationthinking
 npm install
 ```
 
@@ -55,6 +64,19 @@ Example of connecting to an AI assistant:
 1. Start the MCP server for your chosen thinking pattern
 2. Connect your AI assistant to the MCP server
 3. The AI can now use the specialized reasoning capabilities provided by the thinking pattern
+
+## Project Structure
+
+The repository is set up as an npm workspace, allowing you to install and manage all thinking patterns from the root directory:
+
+- `package.json` - Root package with workspace configuration
+- `tsconfig.json` - Base TypeScript configuration
+- `.gitignore` - Specifies files to be ignored by Git
+- `/decomposition` - Decomposition thinking pattern module
+- `/sequentialthinking` - Sequential thinking pattern module
+- `/validationthinking` - Validation thinking pattern module
+
+Each module contains its own package.json, TypeScript code, and configuration.
 
 ## Pattern Details
 

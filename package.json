@@ -1,0 +1,30 @@
+{
+  "name": "thinking-patterns",
+  "version": "0.1.0",
+  "description": "A collection of MCP Thinking Patterns - specialized tools that enhance AI reasoning capabilities",
+  "private": true,
+  "workspaces": [
+    "decomposition",
+    "sequentialthinking",
+    "validationthinking"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "watch": "npm run watch --workspaces",
+    "prepare": "npm run prepare --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cognitivegraphai/thinking-patterns.git"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "thinking-patterns",
+    "reasoning"
+  ],
+  "author": "Anthropic, PBC (https://anthropic.com)",
+  "license": "MIT",
+  "homepage": "https://modelcontextprotocol.io",
+  "bugs": "https://github.com/cognitivegraphai/thinking-patterns/issues"
+}
