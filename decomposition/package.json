@@ -1,11 +1,11 @@
 {
-  "name": "@modelcontextprotocol/server-decomposition",
-  "version": "0.6.3",
+  "name": "@cognitivegraphai/decomposition",
+  "version": "0.0.1",
   "description": "MCP server for breaking down complex problems into manageable components",
   "license": "MIT",
-  "author": "Anthropic, PBC (https://anthropic.com)",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
+  "author": "CognitiveGraph.ai (https://cognitivegraph.ai)",
+  "homepage": "https://thinkingpatterns.ai",
+  "bugs": "https://github.com/cognitivegraphai/thinkingpatternsai/issues",
   "type": "module",
   "bin": {
     "mcp-server-decomposition": "dist/index.js"

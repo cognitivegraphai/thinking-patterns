@@ -1,11 +1,11 @@
 {
-  "name": "@modelcontextprotocol/server-validation-thinking",
+  "name": "@cognitivegraphai/validation-thinking",
   "version": "0.1.0",
   "description": "MCP server for validation thinking and quality assurance",
   "license": "MIT",
-  "author": "Anthropic, PBC (https://anthropic.com)",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
+  "author": "CognitiveGraph.ai (https://cognitivegraph.ai)",
+  "homepage": "https://thinkingpatterns.ai",
+  "bugs": "https://github.com/cognitivegraphai/thinkingpatternsai/issues",
   "type": "module",
   "bin": {
     "mcp-server-validation-thinking": "dist/index.js"
