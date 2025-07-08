@@ -6,7 +6,9 @@
   "workspaces": [
     "decomposition",
     "sequentialthinking",
-    "validationthinking"
+    "validationthinking",
+    "critiquerevision",
+    "branchingexploration"
   ],
   "scripts": {
     "build": "npm run build --workspaces",
