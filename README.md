@@ -2,6 +2,8 @@
 
 This repository is a collection of [MCP](https://modelcontextprotocol.io/) **Thinking Patterns** - specialized tools that enhance AI reasoning capabilities through structured cognitive frameworks.
 
+Read about our research **[here](https://www.notion.so/Research-and-Findings-22a8ba0f2419803696e6de5f8aa1d268)**.
+
 ## Available Patterns
 
 - **[Decomposition](decomposition)** - A powerful tool for breaking down complex problems into manageable components with clear relationships, dependencies, and metrics for evaluating decomposition quality
