@@ -2,11 +2,24 @@
   "name": "@cognitivegraphai/decomposition",
   "version": "0.0.1",
   "description": "MCP server for breaking down complex problems into manageable components",
+  "keywords": [
+    "mcp",
+    "thinking",
+    "ai",
+    "agents"
+  ],
+  "homepage": "https://thinkingpatterns.ai",
+  "bugs": {
+    "url": "https://github.com/cognitivegraphai/thinking-patterns/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognitivegraphai/thinking-patterns.git"
+  },
   "license": "MIT",
   "author": "CognitiveGraph.ai (https://cognitivegraph.ai)",
-  "homepage": "https://thinkingpatterns.ai",
-  "bugs": "https://github.com/cognitivegraphai/thinkingpatternsai/issues",
   "type": "module",
+  "main": "index.js",
   "bin": {
     "mcp-server-decomposition": "dist/index.js"
   },

@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "CognitiveGraph.ai (https://cognitivegraph.ai)",
   "homepage": "https://thinkingpatterns.ai",
-  "bugs": "https://github.com/cognitivegraphai/thinkingpatternsai/issues",
+  "bugs": "https://github.com/cognitivegraphai/thinking-patterns/issues",
   "type": "module",
   "bin": {
     "mcp-server-validation-thinking": "dist/index.js"
